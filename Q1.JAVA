@@ -114,3 +114,22 @@ public class Main {
         // Additional operations and queries can be added
     }
 }
+
+
+class UserInterface {
+    public static void displayStudentInfo(Student student) {
+        System.out.println("Student ID: " + student.getStudentId());
+        System.out.println("Name: " + student.getName());
+        System.out.println("Enrolled Courses: " + student.getCourses());
+        // Additional display logic
+    }
+
+    public static void displayCourseInfo(Course course) {
+        System.out.println("Course ID: " + course.getCourseId());
+        System.out.println("Name: " + course.getCourseName());
+        System.out.println("Enrolled Students: " + course.getEnrolledStudents());
+        // Additional display logic
+    }
+
+    // Additional UI-related methods
+}
